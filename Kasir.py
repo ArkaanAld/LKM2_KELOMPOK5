@@ -5,7 +5,7 @@ class Produk:
     self.stok = stok
     
 class Keranjang:
-  def __init__(self, member=True):
+  def __init__(self, member=False):
     self.daftar_barang = []
     self.member = member
   
@@ -26,11 +26,11 @@ class Keranjang:
         return
     print("Barang tidak ditemukan di keranjang")
     
-  def hitung_total(self):
-        total = 0
-        for item in self.daftar_barang:
-            total += item["produk"].harga * item["jumlah"]
-        return total
+  # def hitung_total(self):
+  #       total = 0
+  #       for item in self.daftar_barang:
+  #           total += item["produk"].harga * item["jumlah"]
+  #       return total
     
   def hitung_total(self):
     total = 0

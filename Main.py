@@ -6,7 +6,7 @@ p3 = Produk("Keyboard Gaming", 250000, 2)
 
 # del p3
 
-keranjang_saya = Keranjang()
+keranjang_saya = Keranjang(True)
 keranjang_saya.tambah_produk(p1, 2)
 keranjang_saya.tambah_produk(p2, 4)
 keranjang_saya.tambah_produk(p3, 1)
