@@ -1,5 +1,7 @@
 from Kasir import Produk, Keranjang
 
+#ini kode tambahan
+
 p1 = Produk("Kopi Kenangan", 25000, 10)
 p2 = Produk("Susu UHT", 18000, 5)
 p3 = Produk("Keyboard Gaming", 250000, 2)
